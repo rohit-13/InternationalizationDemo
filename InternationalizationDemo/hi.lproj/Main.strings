@@ -1,0 +1,60 @@
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "2Xs-1k-Qfh"; */
+"2Xs-1k-Qfh.placeholder" = "ईमेल";
+
+/* Class = "UILabel"; text = "Sign in to your account"; ObjectID = "61H-Ar-Y7e"; */
+"61H-Ar-Y7e.text" = "अपने अकाउंट में साइन इन करें";
+
+/* Class = "UILabel"; text = "Enter password"; ObjectID = "66M-HF-rcd"; */
+"66M-HF-rcd.text" = "पास वर्ड दर्ज करें";
+
+/* Class = "UIBarButtonItem"; title = "BACK"; ObjectID = "6lh-Oy-glg"; */
+"6lh-Oy-glg.title" = "पीछे";
+
+/* Class = "UILabel"; text = "Create a new account"; ObjectID = "G3I-Gf-EcG"; */
+"G3I-Gf-EcG.text" = "एक नया खाता बनाएं";
+
+/* Class = "UILabel"; text = "Confirm password"; ObjectID = "NNo-JG-Nuy"; */
+"NNo-JG-Nuy.text" = "पासवर्ड की पुष्टि कीजिये";
+
+/* Class = "UIBarButtonItem"; title = "Back to login"; ObjectID = "Oaw-5S-LY8"; */
+"Oaw-5S-LY8.title" = "लॉगिन पर वापस जाएं";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "X6j-gT-ZvA"; */
+"X6j-gT-ZvA.placeholder" = "पासवर्ड";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "Xgb-sl-OnW"; */
+"Xgb-sl-OnW.placeholder" = "ईमेल";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "a6X-Ea-Jwa"; */
+"a6X-Ea-Jwa.placeholder" = "पासवर्ड";
+
+/* Class = "UILabel"; text = "Enter password"; ObjectID = "bW9-kY-cve"; */
+"bW9-kY-cve.text" = "पास वर्ड दर्ज करें";
+
+/* Class = "UIButton"; configuration.title = "Don't have an account. Sign up here"; ObjectID = "chP-yY-CUp"; */
+"chP-yY-CUp.normalTitle" = "कोई खाता नहीं है. यहां साइन अप करें";
+
+/* Class = "UIButton"; configuration.title = "Sign in"; ObjectID = "ePr-iS-57V"; */
+"ePr-iS-57V.configuration.title" = "दाखिल करना";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ePr-iS-57V"; */
+"ePr-iS-57V.normalTitle" = "साइन इन";
+
+/* Class = "UILabel"; text = "Welcome User"; ObjectID = "gpB-eC-n3B"; */
+"gpB-eC-n3B.text" = "उपयोगकर्ता का स्वागत है";
+
+/* Class = "UIButton"; configuration.title = "Sign up"; ObjectID = "hZb-0O-MuB"; */
+"hZb-0O-MuB.configuration.title" = "साइन अप करें";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hZb-0O-MuB"; */
+"hZb-0O-MuB.normalTitle" = "साइन अप";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "kZK-eF-v77"; */
+"kZK-eF-v77.placeholder" = "पासवर्ड";
+
+/* Class = "UILabel"; text = "Enter email"; ObjectID = "ttt-B3-iiI"; */
+"ttt-B3-iiI.text" = "ईमेल दर्ज करें";
+
+/* Class = "UILabel"; text = "Enter email"; ObjectID = "xMd-Fa-u2H"; */
+"xMd-Fa-u2H.text" = "ईमेल दर्ज करें";

@@ -1,0 +1,60 @@
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "2Xs-1k-Qfh"; */
+"2Xs-1k-Qfh.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Sign in to your account"; ObjectID = "61H-Ar-Y7e"; */
+"61H-Ar-Y7e.text" = "Sign in to your account";
+
+/* Class = "UILabel"; text = "Enter password"; ObjectID = "66M-HF-rcd"; */
+"66M-HF-rcd.text" = "Enter password";
+
+/* Class = "UIBarButtonItem"; title = "BACK"; ObjectID = "6lh-Oy-glg"; */
+"6lh-Oy-glg.title" = "BACK";
+
+/* Class = "UILabel"; text = "Create a new account"; ObjectID = "G3I-Gf-EcG"; */
+"G3I-Gf-EcG.text" = "Create a new account";
+
+/* Class = "UILabel"; text = "Confirm password"; ObjectID = "NNo-JG-Nuy"; */
+"NNo-JG-Nuy.text" = "Confirm password";
+
+/* Class = "UIBarButtonItem"; title = "Back to login"; ObjectID = "Oaw-5S-LY8"; */
+"Oaw-5S-LY8.title" = "Back to login";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "X6j-gT-ZvA"; */
+"X6j-gT-ZvA.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "Xgb-sl-OnW"; */
+"Xgb-sl-OnW.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "a6X-Ea-Jwa"; */
+"a6X-Ea-Jwa.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Enter password"; ObjectID = "bW9-kY-cve"; */
+"bW9-kY-cve.text" = "Enter password";
+
+/* Class = "UIButton"; configuration.title = "Don't have an account. Sign up here"; ObjectID = "chP-yY-CUp"; */
+"chP-yY-CUp.configuration.title" = "Don't have an account. Sign up here";
+
+/* Class = "UIButton"; configuration.title = "Sign in"; ObjectID = "ePr-iS-57V"; */
+"ePr-iS-57V.configuration.title" = "Sign in";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ePr-iS-57V"; */
+"ePr-iS-57V.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Welcome User"; ObjectID = "gpB-eC-n3B"; */
+"gpB-eC-n3B.text" = "Welcome User";
+
+/* Class = "UIButton"; configuration.title = "Sign up"; ObjectID = "hZb-0O-MuB"; */
+"hZb-0O-MuB.configuration.title" = "Sign up";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hZb-0O-MuB"; */
+"hZb-0O-MuB.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "kZK-eF-v77"; */
+"kZK-eF-v77.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Enter email"; ObjectID = "ttt-B3-iiI"; */
+"ttt-B3-iiI.text" = "Enter email";
+
+/* Class = "UILabel"; text = "Enter email"; ObjectID = "xMd-Fa-u2H"; */
+"xMd-Fa-u2H.text" = "Enter email";

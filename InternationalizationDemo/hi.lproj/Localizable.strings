@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  InternationalizationDemo
+
+  Created by Rohit Kumar on 21/07/23.
+  
+*/
+
+"Welcome %@" = "स्वागत है %@";

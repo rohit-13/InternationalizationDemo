@@ -13,9 +13,7 @@ class WelcomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        welcomeLabel.text = "Welcome \(user ?? "")"
-
+        let formatString = NSLocalizedString("Welcome %@", comment: "welcome user")
+        welcomeLabel.text = String.localizedStringWithFormat(formatString, user!)
     }
-    
-    
 }

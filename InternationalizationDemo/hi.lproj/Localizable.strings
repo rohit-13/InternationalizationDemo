@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  InternationalizationDemo
+
+  Created by Rohit Kumar on 09/08/23.
+  
+*/
+
+"sign-in-to-account" = "अपने अकाउंट में साइन इन करें";
+"enter-email" = "ईमेल दर्ज करें";
+"email" = "ईमेल";
+"enter-password" = "पासवर्ड दर्ज करें";
+"password" = "पासवर्ड";
+"sing-in" = "साइन इन";
+"sign-up-here" = "कोई खाता नहीं है. यहां साइन अप करें";
+
+"back" = "पीछे";
+"back-to-login" = "लॉगिन पर वापस जाएं";
+"create-new-account" = "एक नया खाता बनाएं";
+"confirm-password" = "पासवर्ड की पुष्टि करें";
+"sign-up" = "साइन अप";
+
+"welcome-user" = "स्वागत है %@";

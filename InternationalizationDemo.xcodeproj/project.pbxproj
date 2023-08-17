@@ -17,6 +17,9 @@
 		AA972FAB2A69B1CE00067FF9 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA972FAA2A69B1CE00067FF9 /* SignupViewController.swift */; };
 		AA972FAD2A69B6DE00067FF9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA972FAC2A69B6DE00067FF9 /* WelcomeViewController.swift */; };
 		AA972FB02A69BA7B00067FF9 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA972FAF2A69BA7B00067FF9 /* SigninViewController.swift */; };
+		AAFDD90B2A823945004968E1 /* LocalizableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFDD90A2A823945004968E1 /* LocalizableExtensions.swift */; };
+		AAFDD90D2A8388C7004968E1 /* LocalizationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFDD90C2A8388C7004968E1 /* LocalizationHelper.swift */; };
+		AAFDD9102A838E80004968E1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAFDD9122A838E80004968E1 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,10 @@
 		AA972FAA2A69B1CE00067FF9 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		AA972FAC2A69B6DE00067FF9 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		AA972FAF2A69BA7B00067FF9 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		AAFDD90A2A823945004968E1 /* LocalizableExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableExtensions.swift; sourceTree = "<group>"; };
+		AAFDD90C2A8388C7004968E1 /* LocalizationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationHelper.swift; sourceTree = "<group>"; };
+		AAFDD9112A838E80004968E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AAFDD9132A838EB2004968E1 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				AA2528E12A6A5CE300311301 /* KeyChainHelper.swift */,
+				AAFDD90C2A8388C7004968E1 /* LocalizationHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -57,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				AA2528E52A6A629900311301 /* Extensions.swift */,
+				AAFDD90A2A823945004968E1 /* LocalizableExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -89,6 +98,7 @@
 				AA972F9D2A69A67400067FF9 /* Assets.xcassets */,
 				AA972F9F2A69A67400067FF9 /* LaunchScreen.storyboard */,
 				AA972FA22A69A67400067FF9 /* Info.plist */,
+				AAFDD9122A838E80004968E1 /* Localizable.strings */,
 			);
 			path = InternationalizationDemo;
 			sourceTree = "<group>";
@@ -145,6 +155,7 @@
 			knownRegions = (
 				en,
 				Base,
+				hi,
 			);
 			mainGroup = AA972F882A69A67300067FF9;
 			productRefGroup = AA972F922A69A67300067FF9 /* Products */;
@@ -162,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA972FA12A69A67400067FF9 /* LaunchScreen.storyboard in Resources */,
+				AAFDD9102A838E80004968E1 /* Localizable.strings in Resources */,
 				AA972F9E2A69A67400067FF9 /* Assets.xcassets in Resources */,
 				AA972F9C2A69A67300067FF9 /* Main.storyboard in Resources */,
 			);
@@ -174,7 +186,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAFDD90B2A823945004968E1 /* LocalizableExtensions.swift in Sources */,
 				AA972FAD2A69B6DE00067FF9 /* WelcomeViewController.swift in Sources */,
+				AAFDD90D2A8388C7004968E1 /* LocalizationHelper.swift in Sources */,
 				AA972FB02A69BA7B00067FF9 /* SigninViewController.swift in Sources */,
 				AA972F952A69A67300067FF9 /* AppDelegate.swift in Sources */,
 				AA2528E22A6A5CE300311301 /* KeyChainHelper.swift in Sources */,
@@ -203,6 +217,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		AAFDD9122A838E80004968E1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAFDD9112A838E80004968E1 /* en */,
+				AAFDD9132A838EB2004968E1 /* hi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -210,6 +233,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -270,6 +294,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

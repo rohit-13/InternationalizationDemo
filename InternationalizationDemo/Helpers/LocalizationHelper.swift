@@ -9,7 +9,18 @@ import Foundation
 
 class LocalizationHelper {
     public static func localize(_ key: String) -> String {
-        return NSLocalizedString(key, comment: "")
+        if UserDefaults.standard.selectedLanguage == nil {
+            UserDefaults.standard.selectedLanguage = "en"
+            UserDefaults.standard.synchronize()
+        }
+        
+        let lang = UserDefaults.standard.selectedLanguage
+        guard let path = Bundle.main.path(forResource: lang, ofType: "lproj") else {
+            return NSLocalizedString(key, comment: "")
+        }
+        
+        let bundle = Bundle(path: path)
+        return NSLocalizedString(key, bundle: bundle!, comment: "")
     }
 
     private static func localize(args: [CVarArg], key: String) -> String {
@@ -29,7 +40,15 @@ class LocalizationHelper {
     static var createNewAccount: String { localize("create-new-account") }
     static var confirmPassword: String { localize("confirm-password") }
     static var signUp: String { localize("sign-up") }
+    static var accountAlreadyExists: String { localize("account-already-exists") }
+    static var accountCreatedSuccessfully: String { localize("account-created-successfully") }
+    static var invalidCredentials: String { localize("invalid-credentials") }
     
+    static var selectLanguage: String { localize("select-language") }
+    static var done: String { localize("done") }
+    static var error: String { localize("error") }
+    static var ok: String { localize("ok") }
+    static var close: String { localize("close") }
     static func welcomeUser(_ args: [CVarArg]) -> String {
         localize(args: args, key: "welcome-user")
     }

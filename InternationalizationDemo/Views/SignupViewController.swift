@@ -26,11 +26,11 @@ class SignupViewController: UIViewController {
         if let email = emailTextField.text, let password = passwordTextField.text, let confirmPassword = confirmPasswordTextField.text {
             guard !email.isEmpty, !password.isEmpty, !confirmPassword.isEmpty, password == confirmPassword else { return }
             if KeychainHelper.shared.checkKeyChain(email: email) {
-                self.showErrorAlert("Account already exists.")
+                self.showErrorAlert(LocalizationHelper.accountAlreadyExists)
             }
             else {
                 KeychainHelper.shared.savePassword(email: email, password: password)
-                self.showInfoAlert("Account created successfully.")
+                self.showInfoAlert(LocalizationHelper.accountCreatedSuccessfully)
             }
         }
     }

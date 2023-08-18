@@ -11,7 +11,7 @@
 "email" = "Email";
 "enter-password" = "Enter password";
 "password" = "Password";
-"sing-in" = "Sign in";
+"sign-in" = "Sign in";
 "sign-up-here" = "Don't have an account. Sign up here";
 
 "back" = "Back";
@@ -19,5 +19,13 @@
 "create-new-account" = "Create a new account";
 "confirm-password" = "Confirm password";
 "sign-up" = "Sign up";
+"account-already-exists" = "Account already exists.";
+"account-created-successfully" = "Account created successfully.";
+"invalid-credentials" = "Invalid Credentials";
 
 "welcome-user" = "Welcome %@";
+"select-language" = "Select Language";
+"done" = "Done";
+"error" = "Error";
+"ok" = "OK";
+"close" = "Close";

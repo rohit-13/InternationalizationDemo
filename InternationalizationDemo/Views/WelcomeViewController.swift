@@ -13,6 +13,14 @@ class WelcomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let settingsButton = UIBarButtonItem(image: UIImage(systemName: "gearshape"), style: .plain, target: self, action: #selector(self.settingsButtonPressed))
+        self.navigationItem.rightBarButtonItem = settingsButton
         welcomeLabel.text = LocalizationHelper.welcomeUser([user!])
+    }
+    
+    @objc func settingsButtonPressed() {
+        guard let languageVC = storyboard?.instantiateViewController(identifier: "SelectLanguageViewController") as? SelectLanguageViewController else { return }
+        languageVC.navigationItem.title = LocalizationHelper.selectLanguage
+        navigationController?.pushViewController(languageVC, animated: true)
     }
 }

@@ -11,7 +11,7 @@
 "email" = "ईमेल";
 "enter-password" = "पासवर्ड दर्ज करें";
 "password" = "पासवर्ड";
-"sing-in" = "साइन इन";
+"sign-in" = "साइन इन";
 "sign-up-here" = "कोई खाता नहीं है. यहां साइन अप करें";
 
 "back" = "पीछे";
@@ -19,5 +19,13 @@
 "create-new-account" = "एक नया खाता बनाएं";
 "confirm-password" = "पासवर्ड की पुष्टि करें";
 "sign-up" = "साइन अप";
+"account-already-exists" = "खाता पहले से मौजूद है।";
+"account-created-successfully" = "खाता सफलतापूर्वक बनाया गया.";
+"invalid-credentials" = "अवैध प्रत्यय पत्र";
 
 "welcome-user" = "स्वागत है %@";
+"select-language" = "भाषा चुने";
+"done" = "हो गया";
+"error" = "त्रुटि";
+"ok" = "ठीक है";
+"close" = "बंद करे";

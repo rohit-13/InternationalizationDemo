@@ -26,7 +26,7 @@ class SigninViewController: UIViewController {
                 navigationController?.pushViewController(welcomeVC, animated: true)
             }
             else {
-                self.showErrorAlert("Invalid Credentials")
+                self.showErrorAlert(LocalizationHelper.invalidCredentials)
             }
         }
     }

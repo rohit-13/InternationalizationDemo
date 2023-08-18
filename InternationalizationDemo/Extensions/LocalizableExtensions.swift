@@ -59,7 +59,6 @@ extension UITextField: StbIBLocalizable {
         get { nil }
         set(key) {
             if let key = key {
-                text = LocalizationHelper.localize(key)
                 placeholder = LocalizationHelper.localize(key)
             }
         }

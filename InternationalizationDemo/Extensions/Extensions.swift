@@ -10,8 +10,8 @@ import UIKit
 
 extension UIViewController {
     func showErrorAlert(_ error: String) {
-        let alert = UIAlertController(title: "Error", message: error, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        let alert = UIAlertController(title: LocalizationHelper.error, message: error, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: LocalizationHelper.ok, style: .default, handler: nil))
         present(alert, animated: true, completion: nil)
     }
     
@@ -19,5 +19,12 @@ extension UIViewController {
         let alert = UIAlertController(title: "", message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Close", style: .default, handler: nil))
         present(alert, animated: true, completion: nil)
+    }
+}
+
+extension UserDefaults {
+    var selectedLanguage: String? {
+        get { string(forKey: "i18n_language") }
+        set { set(newValue, forKey: "i18n_language") }
     }
 }

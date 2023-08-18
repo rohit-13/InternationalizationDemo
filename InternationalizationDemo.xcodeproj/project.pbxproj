@@ -17,6 +17,7 @@
 		AA972FAB2A69B1CE00067FF9 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA972FAA2A69B1CE00067FF9 /* SignupViewController.swift */; };
 		AA972FAD2A69B6DE00067FF9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA972FAC2A69B6DE00067FF9 /* WelcomeViewController.swift */; };
 		AA972FB02A69BA7B00067FF9 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA972FAF2A69BA7B00067FF9 /* SigninViewController.swift */; };
+		AAF911AA2A8E827300F614BC /* SelectLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF911A92A8E827300F614BC /* SelectLanguageViewController.swift */; };
 		AAFDD90B2A823945004968E1 /* LocalizableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFDD90A2A823945004968E1 /* LocalizableExtensions.swift */; };
 		AAFDD90D2A8388C7004968E1 /* LocalizationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFDD90C2A8388C7004968E1 /* LocalizationHelper.swift */; };
 		AAFDD9102A838E80004968E1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAFDD9122A838E80004968E1 /* Localizable.strings */; };
@@ -35,6 +36,7 @@
 		AA972FAA2A69B1CE00067FF9 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		AA972FAC2A69B6DE00067FF9 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		AA972FAF2A69BA7B00067FF9 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		AAF911A92A8E827300F614BC /* SelectLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguageViewController.swift; sourceTree = "<group>"; };
 		AAFDD90A2A823945004968E1 /* LocalizableExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableExtensions.swift; sourceTree = "<group>"; };
 		AAFDD90C2A8388C7004968E1 /* LocalizationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationHelper.swift; sourceTree = "<group>"; };
 		AAFDD9112A838E80004968E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				AA972FAC2A69B6DE00067FF9 /* WelcomeViewController.swift */,
 				AA972FAA2A69B1CE00067FF9 /* SignupViewController.swift */,
 				AA972FAF2A69BA7B00067FF9 /* SigninViewController.swift */,
+				AAF911A92A8E827300F614BC /* SelectLanguageViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				AA972FB02A69BA7B00067FF9 /* SigninViewController.swift in Sources */,
 				AA972F952A69A67300067FF9 /* AppDelegate.swift in Sources */,
 				AA2528E22A6A5CE300311301 /* KeyChainHelper.swift in Sources */,
+				AAF911AA2A8E827300F614BC /* SelectLanguageViewController.swift in Sources */,
 				AA972FAB2A69B1CE00067FF9 /* SignupViewController.swift in Sources */,
 				AA972F972A69A67300067FF9 /* SceneDelegate.swift in Sources */,
 				AA2528E62A6A629900311301 /* Extensions.swift in Sources */,

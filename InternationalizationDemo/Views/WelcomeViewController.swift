@@ -15,6 +15,7 @@ class WelcomeViewController: UIViewController {
         super.viewDidLoad()
         let settingsButton = UIBarButtonItem(image: UIImage(systemName: "gearshape"), style: .plain, target: self, action: #selector(self.settingsButtonPressed))
         self.navigationItem.rightBarButtonItem = settingsButton
+        self.navigationItem.backButtonTitle = LocalizationHelper.back
         welcomeLabel.text = LocalizationHelper.welcomeUser([user!])
     }
     

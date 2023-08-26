@@ -269,7 +269,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="rBl-mc-STm">
-                        <barButtonItem key="backBarButtonItem" title="Back to login" id="Oaw-5S-LY8"/>
+                        <barButtonItem key="backBarButtonItem" title="Back to login" id="Oaw-5S-LY8">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="localizedKey" value="back-to-login"/>
+                            </userDefinedRuntimeAttributes>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="emailTextField" destination="2Xs-1k-Qfh" id="Acq-FW-K25"/>
